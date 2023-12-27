@@ -11,6 +11,7 @@ https://www.kaggle.com/datasets/jensenbaxter/10dataset-text-document-classificat
 conda env create -f environment.yml 
 ```
 
+## Repo
 The repository consists of the following files:
 * environment.yml - reproduction file
 * entity-extractor.ipynb, which contains a solution that uses the gpt3 API (3.5 turbo) to extract a business entity from the given text. The model selects a business entity from a previously defined list, which allows you to adapt the list of industries to a specific task, as well as sorting and filtering next items per business. 
